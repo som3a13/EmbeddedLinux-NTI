@@ -20,13 +20,15 @@ c) absolute [complete path] : /home/som3a133/docs/mycv
 3)cd /home/som3a133
 4)cd $HOME
 
-8-ls /usr/bin/ | grep ^[w].*
- ls /usr/bin/w*
+# 8 :
+    ls /usr/bin/ | grep ^[w].*
+    ls /usr/bin/w*
 
 9- type : troubleshooting and understanding how commands are interpreted by the shell.
-10- 1) som3a133@linux:~$  type chmod
+# 10 :
+    som3a133@linux:~$  type chmod
     chmod is /usr/bin/chmod
-    2)som3a133@linux:~$  type chown
+    som3a133@linux:~$  type chown
     chown is /usr/bin/chown
 
 11- man read
