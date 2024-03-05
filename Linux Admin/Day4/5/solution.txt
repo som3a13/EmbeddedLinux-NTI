@@ -1,0 +1,10 @@
+Section2 
+
+1- sudo groupadd -g 30000 pgroup
+2- passwd -l mohamed  [it just change expiry date of pass (delete it so you can acess account)]
+    chage -l mohamed   [to check password status]
+3- sudo userdel mohamed
+4- sudo userdel ismail
+5-  adduser  [High level command automates creating a user with all it defautls files/folders]
+    useradd [low level needs more manual configurations to create a customized user account]
+    

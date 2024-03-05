@@ -1,0 +1,25 @@
+1- $HELLO env. variable will be global for all terminals 
+    $LOCAL will only be avaliable for the local shell where task.sh run
+
+Section2 :
+1- ls /usr/local/bin >> tmp/commands.list
+
+2- gedit ~/.profile   then    add date at last line
+
+3- wc -w solution.txt
+a)ls /usr/local/bin | wc -l
+
+4- a) will show content of filename2
+    b) rm command needs an operand so it'll give error
+    c) ls /etc/passwd | wc –l   : it just echo 1 and that is for 1 line as if we want to count users in passwd we should use cat then wc
+
+5- sudo find / -name ".profile" -print
+
+6- ls -id / /etc /etc/hosts
+
+7-sudo ln -s /etc/passwd /boot    [Symbolic link like a shortcut]
+[Hard link like take the copy the file anywhere in system but anychanges will affect the main file as well]
+
+8- ln /etc/passwd /boot   ,yes we can do hard link using sudo
+
+9- gedit ~/.bashrc   then append to it : export PS2=":"
