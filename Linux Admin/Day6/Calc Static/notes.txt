@@ -1,0 +1,15 @@
+# in lib folder:
+
+gcc -c *.c
+to make the libmath.a:
+ar rcs liboperation.a *.o    
+
+# in main folder :
+
+# Staticly linked the libmath.a but it still have other libs dyanmicly linked to it 
+
+gcc main.c -I ./include -L. ./lib/liboperarion.a -o mainStatic.elf
+
+# To make all static.elf we add -static option:
+
+gcc main.c -I ./include -L. ./lib/liboperarion.a -static -o mainAllStatic.elf

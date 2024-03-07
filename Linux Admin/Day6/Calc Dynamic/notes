@@ -1,0 +1,10 @@
+# In Lib folder:
+gcc -c -fPIC *.c     
+gcc -shared -o liboperation.so *.o
+# In main folder :
+gcc main.c -I ./include/ -L./lib -loperation -o mainDynamic.elf  # just take a look on lib/libmath.so in this directory for compiling only but it didnt take it 
+
+# Path of the library !   
+# check by
+ldd mainDynamic.elf             
+sudo cp liboperation.so /usr/lib/
