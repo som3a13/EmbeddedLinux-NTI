@@ -23,6 +23,7 @@ Na2na2a :
 
 # 1:
 
+```
     cd /etc
     som3a133@linux:/etc$ ls | grep shell
     shells
@@ -36,6 +37,7 @@ Na2na2a :
     /usr/bin/sh
     /bin/dash
     /usr/bin/dash
+```
 
 2- env  / printenv
 3- som3a133@linux:~$ env | grep SHELL
