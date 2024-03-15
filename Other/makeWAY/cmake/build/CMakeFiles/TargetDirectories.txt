@@ -1,0 +1,9 @@
+/home/som3a133/Desktop/EmbeddedLinux/NTI/play/ELa/s4/cmake/build/CMakeFiles/Mylib.dir
+/home/som3a133/Desktop/EmbeddedLinux/NTI/play/ELa/s4/cmake/build/CMakeFiles/hx.dir
+/home/som3a133/Desktop/EmbeddedLinux/NTI/play/ELa/s4/cmake/build/CMakeFiles/test.dir
+/home/som3a133/Desktop/EmbeddedLinux/NTI/play/ELa/s4/cmake/build/CMakeFiles/edit_cache.dir
+/home/som3a133/Desktop/EmbeddedLinux/NTI/play/ELa/s4/cmake/build/CMakeFiles/rebuild_cache.dir
+/home/som3a133/Desktop/EmbeddedLinux/NTI/play/ELa/s4/cmake/build/CMakeFiles/list_install_components.dir
+/home/som3a133/Desktop/EmbeddedLinux/NTI/play/ELa/s4/cmake/build/CMakeFiles/install.dir
+/home/som3a133/Desktop/EmbeddedLinux/NTI/play/ELa/s4/cmake/build/CMakeFiles/install/local.dir
+/home/som3a133/Desktop/EmbeddedLinux/NTI/play/ELa/s4/cmake/build/CMakeFiles/install/strip.dir

@@ -1,0 +1,10 @@
+cmake -S . -B build -DCMAKE_INSTALL_PREFIX=./build/
+
+cmake --build build --target install
+
+
+mkdir build
+cd build
+cmake ..
+make -j
+sudo make install -j

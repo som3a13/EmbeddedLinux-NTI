@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/hx.dir/main.cpp.o -o hx  -Wl,-rpath,/home/som3a133/Desktop/EmbeddedLinux/NTI/play/ELa/s4/cmake/build: libMylib.so 

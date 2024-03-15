@@ -1,0 +1,7 @@
+configure.ac 
+Makefile.am 
+run aclocal
+autoconf
+automake --add-missing
+./configure
+make

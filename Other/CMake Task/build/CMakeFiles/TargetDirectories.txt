@@ -1,0 +1,4 @@
+/home/som3a133/Desktop/EmbeddedLinux/NTI/play/ELa/CMake Task/build/CMakeFiles/Mylib.dir
+/home/som3a133/Desktop/EmbeddedLinux/NTI/play/ELa/CMake Task/build/CMakeFiles/Ex.dir
+/home/som3a133/Desktop/EmbeddedLinux/NTI/play/ELa/CMake Task/build/CMakeFiles/edit_cache.dir
+/home/som3a133/Desktop/EmbeddedLinux/NTI/play/ELa/CMake Task/build/CMakeFiles/rebuild_cache.dir
