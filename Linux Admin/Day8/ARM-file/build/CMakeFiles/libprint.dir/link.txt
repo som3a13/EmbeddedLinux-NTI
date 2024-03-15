@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/liblibprint.a CMakeFiles/libprint.dir/lib/print.c.o
+/usr/bin/ranlib lib/liblibprint.a

@@ -1,0 +1,9 @@
+scp -r -P 5555 /home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/arm-cortexa9_neon-linux-musleabihf/sysroot pi@localhost:~/Desktop
+
+move sysroot folders to /     
+NOTE :
+if not copied  shared library not found !
+
+
+Test ldd on host :
+/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/bin/arm-cortexa9_neon-linux-musleabihf-ldd --root /home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/arm-cortexa9_neon-linux-musleabihf/sysroot TestStatic

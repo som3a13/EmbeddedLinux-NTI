@@ -1,0 +1,2 @@
+/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/bin/arm-cortexa9_neon-linux-musleabihf-ar qc lib/liblibprint.a CMakeFiles/libprint.dir/lib/print.c.o
+/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/bin/arm-cortexa9_neon-linux-musleabihf-ranlib lib/liblibprint.a

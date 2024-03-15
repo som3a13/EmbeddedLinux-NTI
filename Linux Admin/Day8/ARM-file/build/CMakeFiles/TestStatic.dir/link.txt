@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/TestStatic.dir/src/main.c.o -o bin/TestStatic  lib/liblibprint.a 

@@ -1,0 +1,82 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/som3a133/Desktop/EmbeddedLinux/NTI/Day8/ARM-file/buildArm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_30c36/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_30c36.dir/build.make CMakeFiles/cmTC_30c36.dir/build
+gmake[1]: Entering directory '/home/som3a133/Desktop/EmbeddedLinux/NTI/Day8/ARM-file/buildArm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30c36.dir/CMakeCCompilerABI.c.o
+/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/bin/arm-cortexa9_neon-linux-musleabihf-gcc --sysroot="~/x-tools/arm-cortexa9_neon-linux-musleabihf/arm-cortexa9_neon-linux-musleabihf/sysroot/"   -v -o CMakeFiles/cmTC_30c36.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/bin/arm-cortexa9_neon-linux-musleabihf-gcc
+Target: arm-cortexa9_neon-linux-musleabihf
+Configured with: /home/som3a133/Desktop/crosstool-NG/crosstool-ng/.build/arm-cortexa9_neon-linux-musleabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-cortexa9_neon-linux-musleabihf --prefix=/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf --exec_prefix=/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf --with-sysroot=/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/arm-cortexa9_neon-linux-musleabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a9 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.489_25f6dae' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/som3a133/Desktop/crosstool-NG/crosstool-ng/.build/arm-cortexa9_neon-linux-musleabihf/buildtools --with-mpfr=/home/som3a133/Desktop/crosstool-NG/crosstool-ng/.build/arm-cortexa9_neon-linux-musleabihf/buildtools --with-mpc=/home/som3a133/Desktop/crosstool-NG/crosstool-ng/.build/arm-cortexa9_neon-linux-musleabihf/buildtools --with-isl=/home/som3a133/Desktop/crosstool-NG/crosstool-ng/.build/arm-cortexa9_neon-linux-musleabihf/buildtools --enable-lto --enable-threads=posix --enable-plugin --enable-gold --with-libintl-prefix=/home/som3a133/Desktop/crosstool-NG/crosstool-ng/.build/arm-cortexa9_neon-linux-musleabihf/buildtools --disable-multilib --with-local-prefix=/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/arm-cortexa9_neon-linux-musleabihf/sysroot --enable-long-long
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (crosstool-NG 1.24.0.489_25f6dae) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_30c36.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_30c36.dir/'
+ /home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/libexec/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/cc1 -quiet -v -isysroot ~/x-tools/arm-cortexa9_neon-linux-musleabihf/arm-cortexa9_neon-linux-musleabihf/sysroot/ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_30c36.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-a9 -mfloat-abi=hard -mfpu=neon -mtls-dialect=gnu -marm -mlibarch=armv7-a+mp+sec+simd -march=armv7-a+mp+sec+simd -version -o /tmp/ccx36X51.s
+GNU C17 (crosstool-NG 1.24.0.489_25f6dae) version 11.2.0 (arm-cortexa9_neon-linux-musleabihf)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "~/x-tools/arm-cortexa9_neon-linux-musleabihf/arm-cortexa9_neon-linux-musleabihf/sysroot/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/arm-cortexa9_neon-linux-musleabihf/sysroot/include"
+ignoring nonexistent directory "~/x-tools/arm-cortexa9_neon-linux-musleabihf/arm-cortexa9_neon-linux-musleabihf/sysroot/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/lib/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/../../../../arm-cortexa9_neon-linux-musleabihf/include
+ /home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/lib/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/include
+End of search list.
+GNU C17 (crosstool-NG 1.24.0.489_25f6dae) version 11.2.0 (arm-cortexa9_neon-linux-musleabihf)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: af76b80c9611d7e903f53d8a2d5b4aa3
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_30c36.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_30c36.dir/'
+ /home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/lib/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/../../../../arm-cortexa9_neon-linux-musleabihf/bin/as -v -march=armv7-a+mp+sec -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_30c36.dir/CMakeCCompilerABI.c.o /tmp/ccx36X51.s
+GNU assembler version 2.37 (arm-cortexa9_neon-linux-musleabihf) using BFD version (crosstool-NG 1.24.0.489_25f6dae) 2.37
+COMPILER_PATH=/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/libexec/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/:/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/libexec/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/:/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/libexec/gcc/arm-cortexa9_neon-linux-musleabihf/:/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/lib/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/:/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/lib/gcc/arm-cortexa9_neon-linux-musleabihf/:/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/lib/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/../../../../arm-cortexa9_neon-linux-musleabihf/bin/
+LIBRARY_PATH=/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/lib/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/:/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/lib/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/../../../../arm-cortexa9_neon-linux-musleabihf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_30c36.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_30c36.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_30c36
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30c36.dir/link.txt --verbose=1
+/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/bin/arm-cortexa9_neon-linux-musleabihf-gcc --sysroot="~/x-tools/arm-cortexa9_neon-linux-musleabihf/arm-cortexa9_neon-linux-musleabihf/sysroot/"  -v CMakeFiles/cmTC_30c36.dir/CMakeCCompilerABI.c.o -o cmTC_30c36 
+Using built-in specs.
+COLLECT_GCC=/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/bin/arm-cortexa9_neon-linux-musleabihf-gcc
+COLLECT_LTO_WRAPPER=/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/libexec/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/lto-wrapper
+Target: arm-cortexa9_neon-linux-musleabihf
+Configured with: /home/som3a133/Desktop/crosstool-NG/crosstool-ng/.build/arm-cortexa9_neon-linux-musleabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-cortexa9_neon-linux-musleabihf --prefix=/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf --exec_prefix=/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf --with-sysroot=/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/arm-cortexa9_neon-linux-musleabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a9 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.24.0.489_25f6dae' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/som3a133/Desktop/crosstool-NG/crosstool-ng/.build/arm-cortexa9_neon-linux-musleabihf/buildtools --with-mpfr=/home/som3a133/Desktop/crosstool-NG/crosstool-ng/.build/arm-cortexa9_neon-linux-musleabihf/buildtools --with-mpc=/home/som3a133/Desktop/crosstool-NG/crosstool-ng/.build/arm-cortexa9_neon-linux-musleabihf/buildtools --with-isl=/home/som3a133/Desktop/crosstool-NG/crosstool-ng/.build/arm-cortexa9_neon-linux-musleabihf/buildtools --enable-lto --enable-threads=posix --enable-plugin --enable-gold --with-libintl-prefix=/home/som3a133/Desktop/crosstool-NG/crosstool-ng/.build/arm-cortexa9_neon-linux-musleabihf/buildtools --disable-multilib --with-local-prefix=/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/arm-cortexa9_neon-linux-musleabihf/sysroot --enable-long-long
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (crosstool-NG 1.24.0.489_25f6dae) 
+COMPILER_PATH=/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/libexec/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/:/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/libexec/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/:/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/libexec/gcc/arm-cortexa9_neon-linux-musleabihf/:/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/lib/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/:/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/lib/gcc/arm-cortexa9_neon-linux-musleabihf/:/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/lib/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/../../../../arm-cortexa9_neon-linux-musleabihf/bin/
+LIBRARY_PATH=/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/lib/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/:/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/lib/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/../../../../arm-cortexa9_neon-linux-musleabihf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_30c36' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'cmTC_30c36.'
+ /home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/libexec/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/collect2 -plugin /home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/libexec/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/liblto_plugin.so -plugin-opt=/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/libexec/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cchwFAEh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=~/x-tools/arm-cortexa9_neon-linux-musleabihf/arm-cortexa9_neon-linux-musleabihf/sysroot/ --eh-frame-hdr -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_30c36 crt1.o crti.o /home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/lib/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/crtbegin.o -L/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/lib/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0 -L/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/lib/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/../../../../arm-cortexa9_neon-linux-musleabihf/lib CMakeFiles/cmTC_30c36.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/lib/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/crtend.o crtn.o
+/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/lib/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/../../../../arm-cortexa9_neon-linux-musleabihf/bin/ld.bfd: cannot find crt1.o: No such file or directory
+/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/lib/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/../../../../arm-cortexa9_neon-linux-musleabihf/bin/ld.bfd: cannot find crti.o: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_30c36.dir/build.make:99: cmTC_30c36] Error 1
+gmake[1]: Leaving directory '/home/som3a133/Desktop/EmbeddedLinux/NTI/Day8/ARM-file/buildArm/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_30c36/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/som3a133/Desktop/EmbeddedLinux/NTI/Day8/ARM-file/buildArm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_31c8a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_31c8a.dir/build.make CMakeFiles/cmTC_31c8a.dir/build
+gmake[1]: Entering directory '/home/som3a133/Desktop/EmbeddedLinux/NTI/Day8/ARM-file/buildArm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31c8a.dir/testCCompiler.c.o
+/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/bin/arm-cortexa9_neon-linux-musleabihf-gcc --sysroot="~/x-tools/arm-cortexa9_neon-linux-musleabihf/arm-cortexa9_neon-linux-musleabihf/sysroot/"    -o CMakeFiles/cmTC_31c8a.dir/testCCompiler.c.o -c /home/som3a133/Desktop/EmbeddedLinux/NTI/Day8/ARM-file/buildArm/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_31c8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31c8a.dir/link.txt --verbose=1
+/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/bin/arm-cortexa9_neon-linux-musleabihf-gcc --sysroot="~/x-tools/arm-cortexa9_neon-linux-musleabihf/arm-cortexa9_neon-linux-musleabihf/sysroot/" CMakeFiles/cmTC_31c8a.dir/testCCompiler.c.o -o cmTC_31c8a 
+/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/lib/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/../../../../arm-cortexa9_neon-linux-musleabihf/bin/ld.bfd: cannot find crt1.o: No such file or directory
+/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/lib/gcc/arm-cortexa9_neon-linux-musleabihf/11.2.0/../../../../arm-cortexa9_neon-linux-musleabihf/bin/ld.bfd: cannot find crti.o: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_31c8a.dir/build.make:99: cmTC_31c8a] Error 1
+gmake[1]: Leaving directory '/home/som3a133/Desktop/EmbeddedLinux/NTI/Day8/ARM-file/buildArm/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_31c8a/fast] Error 2
+
+
+

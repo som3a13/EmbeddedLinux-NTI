@@ -1,0 +1,1 @@
+/home/som3a133/x-tools/arm-cortexa9_neon-linux-musleabihf/bin/arm-cortexa9_neon-linux-musleabihf-gcc CMakeFiles/TestStatic.dir/src/main.c.o -o bin/TestStatic  lib/liblibprint.a 

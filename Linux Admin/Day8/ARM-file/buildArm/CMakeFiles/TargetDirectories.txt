@@ -1,0 +1,4 @@
+/home/som3a133/Desktop/EmbeddedLinux/NTI/Day8/ARM-file/buildArm/CMakeFiles/libprint.dir
+/home/som3a133/Desktop/EmbeddedLinux/NTI/Day8/ARM-file/buildArm/CMakeFiles/TestStatic.dir
+/home/som3a133/Desktop/EmbeddedLinux/NTI/Day8/ARM-file/buildArm/CMakeFiles/edit_cache.dir
+/home/som3a133/Desktop/EmbeddedLinux/NTI/Day8/ARM-file/buildArm/CMakeFiles/rebuild_cache.dir
