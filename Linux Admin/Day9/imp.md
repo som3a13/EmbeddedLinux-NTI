@@ -89,7 +89,7 @@ qemu-system-arm -M vexpress-a9 \
 -kernel SD/boot/u-boot \
 -sd sd.img \
  -net nic\
- -net tap,script=qemu-ifup.sh
+ -net tap,script=no
 ```
 after running kernel it searchs now for mounting point for rootfs.
 ## Creating ROOTFS:
