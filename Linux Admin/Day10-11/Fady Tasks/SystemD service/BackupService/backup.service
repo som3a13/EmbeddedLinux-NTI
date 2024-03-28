@@ -1,0 +1,14 @@
+[Unit]
+Description=Automated Backup Service
+After=network.target
+
+[Service]
+Type=oneshot
+Restart=on-failure
+RestartSec=5s
+ExecStart=/usr/local/bin/backup.sh
+
+[Install]
+WantedBy=multi-user.target
+
+#######WILL Be added to /etc/systemd/system#######

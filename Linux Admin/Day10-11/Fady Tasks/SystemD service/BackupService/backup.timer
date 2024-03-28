@@ -1,0 +1,12 @@
+[Unit]
+Description=Daily Backup Timer
+
+[Timer]
+OnCalendar=*-*-* 20:09:00
+Persistent=true
+Unit=backup.service
+
+[Install]
+WantedBy=timers.target
+
+#######WILL Be added to /etc/systemd/system#######
