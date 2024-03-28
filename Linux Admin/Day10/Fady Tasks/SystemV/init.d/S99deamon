@@ -1,0 +1,16 @@
+#! /bin/sh
+case "$1" in
+      start)
+           echo "Starting deamonapp........."
+           start-stop-daemon -S -n TestDeamon -a /bin/TestDeamon >/dev/null &
+           ;;
+     stop)
+           echo "Stopping deamonapp........."
+           start-stop-daemon -K -n TestDeamon
+           ;;
+     *)
+           echo "Usage: $0 {start|stop}"
+           exit 1
+esac
+exit 0
+
