@@ -23,6 +23,7 @@ pylint3 xterm
 
 ```
 git clone -b dunfell git://git.yoctoproject.org/poky.git --depth=1
+cd poky/
 ```
 
 

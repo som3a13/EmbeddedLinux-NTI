@@ -44,7 +44,9 @@ make raspberrypi4_64_defconfig
 ```
 
 **In the configuration, configure the following  requirement :**
-
+```
+make menuconfig
+```
 * [ ] Init procecss to **System V** or **System D** or **Busybox init**
 
 `In case of using systemD increase the root file system size from build root configuartion`
