@@ -192,7 +192,6 @@ qemu-system-arm -M vexpress-a9 -m 128M -nographic \
 -sd sd.img
 ```
 
-![1712258063295](https://file+.vscode-resource.vscode-cdn.net/home/som3a133/Desktop/GitHub/EmbeddedLinux-NTI/U-Boot/image/README/1712258063295.png)
 
 # 7. Setup TFTP
 
@@ -242,4 +241,4 @@ sudo qemu-system-arm -M vexpress-a9 -m 128M -nographic \
 -net tap,script=./qemu-ifup -net nic
 ```
 
-![1712258944793](https://file+.vscode-resource.vscode-cdn.net/home/som3a133/Desktop/GitHub/EmbeddedLinux-NTI/U-Boot/image/README/1712258944793.png)
+![1712262137278](image/README/1712262137278.png)
