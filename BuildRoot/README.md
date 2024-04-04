@@ -67,7 +67,7 @@ make -j12 # 12 stands for 12 cores = 12tasks at one time for fast building
 
 # 5. Boot time
 
-**For Qemu : [Path : output/images/]**
+##### ***For Qemu* : [Path : output/images/]**
 
 ![1712245446330](image/README/1712245446330.png)
 
@@ -103,27 +103,37 @@ ifconfig eth0 10.204.25.177
 ifconfig eth0 up
 ```
 
-**For RPI 4:**
+##### ***For RPI 4:***
 
 ![1712246489640](image/README/1712246489640.png)
 
-**Image is ready in sdcard.img**
+**Image is ready in sdcard.img:**
 
-Format your SD card first using disks or check your sdcard name by using `lsblk command` and then
+1. **Format your SD card first using disks or check your sdcard name by using `lsblk command` and then**
 
 ```
 dd if=/dev/zero of=/dev/sda bs=1M
 ```
 
-Copy sdcard structures / files to your sd card
+2. **Copy sdcard structures / files to your sd card**
 
 ```
 dd if=output/images/sdcard.img of=/dev/sda bs=1M  #sda is your dev name block check lsblk
 ```
 
-**Insert SD card in you pi**
+Or we can create the partitons manually using `cfdisk` and add file structure to the boot , rootfs partitions  and  Then mounting sd.img  using `losetup` and  copy content to our actual SD card
 
-**setup ssh:**
+Content of boot should be :
+
+![1712250525172](image/README/1712250525172.png)
+
+Rootfs :
+
+![1712250547900](image/README/1712250547900.png)
+
+**3. Insert SD card in you pi**
+
+**4. setup ssh:**
 
 to see raspi ip while connected with router:
 
