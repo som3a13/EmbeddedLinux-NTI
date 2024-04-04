@@ -192,6 +192,7 @@ qemu-system-arm -M vexpress-a9 -m 128M -nographic \
 -sd sd.img
 ```
 
+![1712262221486](image/README/1712262221486.png)
 
 # 7. Setup TFTP
 
