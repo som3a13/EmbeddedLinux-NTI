@@ -77,6 +77,8 @@ sudo ./start-qemu.sh
 
 ssh not working with qemu ? we will configure virtual connection between PC & Qemu using tap0 , eth0
 
+ **Host**  **machine** :will  have interface name tap0 while running qemu start script
+
 ```
 vim qemu-ifup.sh # touch and edit .sh
 ```
@@ -94,14 +96,14 @@ vim start-qemu.sh
 # Instead of this -net nic,model=lan9118 -net user
 ```
 
-here Host will  have interface name tap0 while running qemu start script
-
-in Target do  as eth0 has not assigned an ip
+**in Target machine :**
 
 ```
 ifconfig eth0 10.204.25.177
 ifconfig eth0 up
 ```
+
+![1712251219387](image/README/1712251219387.png)
 
 ##### ***For RPI 4:***
 
@@ -161,3 +163,7 @@ sudo nmap -sn `<localIPv4>`/24
 ssh root@`<Pi-IP>`
 
 ![1712249324185](image/README/1712249324185.png)
+
+# 7. What about starting our booting with uboot ?
+
+**We can configure it manually or through buildroot but check U-BOOT folder and make a try**
