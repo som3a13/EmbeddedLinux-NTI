@@ -121,6 +121,10 @@ vim bblayers.conf
 
 ![1712241192488](image/READEME/1712241192488.png)
 
+**NOTE : IF YOU WANT CREATE YOUR OWN LAYER CHECK THIS:**
+
+#### [**Create New layer**](https://github.com/som3a13/EmbeddedLinux-NTI/tree/main/7-YOCTO/Create%20layer)
+
 # 4. Build Yocto image
 
 This command will bitbake the recipe defined by default in build/ directory .
