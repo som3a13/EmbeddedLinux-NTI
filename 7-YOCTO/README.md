@@ -17,16 +17,12 @@ xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl
 pylint3 xterm
 ```
 
-
-
 # 2. Download Yocto
 
 ```
 git clone -b dunfell git://git.yoctoproject.org/poky.git --depth=1
 cd poky/
 ```
-
-
 
 # 3. Configuration for Poky !
 
@@ -57,7 +53,6 @@ Check for variable called MACHINE  it 's our machine name
  MACHINE ??= "qemux86-64"
 ```
 
-
 You can change download / sstate /tmp directories by editing there variables
 
 ```
@@ -66,12 +61,11 @@ You can change download / sstate /tmp directories by editing there variables
 #TMPDIR = "${TOPDIR}/tmp"
 ```
 
-Adding package : add this variable
+Adding package : add this variable     
 
 ```
 IMAGE_INSTALL_append = "ANY CHOSEN PACK" 
 ```
-
 
 ## for Raspberry pi 4 - 64
 
