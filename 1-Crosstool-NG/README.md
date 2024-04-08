@@ -40,7 +40,7 @@ make #To generate the Makefile for croostool-ng
 ```
 
 
-
+![1712589585620](image/README/1712589585620.png)
 
 We will choose `arm-cortexa9_neon-linux-gnueabihf` as example:
 
@@ -68,7 +68,7 @@ We will choose `arm-cortexa9_neon-linux-gnueabihf` as example:
 ./ct-ng show-config
 ```
 
-
+![1712589598257](image/README/1712589598257.png)
 
 
 # 4. Build Our ToolChain
