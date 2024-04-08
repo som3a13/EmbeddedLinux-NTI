@@ -61,7 +61,7 @@ You can change download / sstate /tmp directories by editing there variables
 #TMPDIR = "${TOPDIR}/tmp"
 ```
 
-Adding package : add this variable     
+Adding package : add this variable
 
 ```
 IMAGE_INSTALL_append = "ANY CHOSEN PACK" 
@@ -121,9 +121,7 @@ vim bblayers.conf
 
 ![1712241192488](image/READEME/1712241192488.png)
 
-**NOTE : IF YOU WANT CREATE YOUR OWN LAYER CHECK THIS:**
-
-#### [**Create New layer**](https://github.com/som3a13/EmbeddedLinux-NTI/tree/main/7-YOCTO/Create%20layer)
+### **# IF YOU WANT CREATE YOUR OWN LAYER CHECK THIS: [Create New layer](https://github.com/som3a13/EmbeddedLinux-NTI/tree/main/7-YOCTO/Create%20layer)**
 
 # 4. Build Yocto image
 
