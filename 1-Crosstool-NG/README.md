@@ -39,6 +39,8 @@ make #To generate the Makefile for croostool-ng
 ./ct-ng list-samples
 ```
 
+
+
 ![1712588135314](https://file+.vscode-resource.vscode-cdn.net/home/som3a133/Desktop/GitHub/EmbeddedLinux-NTI/1-Crosstool-NG/image/README/1712588135314.png)
 
 We will choose `arm-cortexa9_neon-linux-gnueabihf` as example:
@@ -55,7 +57,7 @@ We will choose `arm-cortexa9_neon-linux-gnueabihf` as example:
 
 ![1712588590188](image/README/1712588590188.png)
 
-**Our Needed Configurations :** 
+**Our Needed Configurations :**
 
 * [ ] C-library : **musl**
 * [ ] C compiler : **support C++**
@@ -67,7 +69,9 @@ We will choose `arm-cortexa9_neon-linux-gnueabihf` as example:
 ./ct-ng show-config
 ```
 
-![1712589013352](https://file+.vscode-resource.vscode-cdn.net/home/som3a133/Desktop/GitHub/EmbeddedLinux-NTI/1-Crosstool-NG/image/README/1712589013352.png)    
+
+
+![1712589013352](https://file+.vscode-resource.vscode-cdn.net/home/som3a133/Desktop/GitHub/EmbeddedLinux-NTI/1-Crosstool-NG/image/README/1712589013352.png)
 
 # 4. Build Our ToolChain
 
@@ -80,7 +84,6 @@ Wait till it finish and go check your tool chain
 
 cd ~/x-tools
 
-# 5. Result 
-
+# 5. Result
 
 ![1712589230803](image/README/1712589230803.png)
