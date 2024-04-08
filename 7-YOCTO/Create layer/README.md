@@ -8,11 +8,13 @@ This command will automaticaly crate a layer with layer.conf & an example recipe
  bitbake-layers create-layer ./meta-pack
 ```
 
+```
 ├── conf
 │   └── layer.conf
 ├── recipes-example
 │   └── example
 │       └── example_0.1.bb
+```
 
 To check bitbake-layers command what can it do as add / remove / create / show
 
@@ -32,7 +34,7 @@ bitbake-layers show-layers
 
 ![1712584556657](image/README/1712584556657.png)
 
-**Build the recipe** 
+**Build the recipe**
 
 ```
 bitbake example
@@ -45,11 +47,13 @@ bitbake example
 3. create files directory under hello
 4. tree of that should be looks like that:
 
+   ```
    .
    └── hello
        ├── files
        │   └── hello.c
        └── hello_0.1.bb
+   ```
 
 Using skeletal recipe as a base lets edit our hello_0.1.bb
 
@@ -81,7 +85,6 @@ Our hello.c:
 bitbake hello
 ```
 
-
 # 3. Adding Pack from layers
 
 ```
@@ -93,12 +96,11 @@ vim local.conf
 
 ```
 
-
 Add IMAGE_INSTALL_append = " hello"
 
 This will add `helloWorld binary` to our image in `/usr/bin `of our target rootfs
 
-**Now Build our image** 
+**Now Build our image**
 
 ```
 bitbake core-image-minimal -k
