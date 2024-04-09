@@ -39,7 +39,6 @@ make #To generate the Makefile for croostool-ng
 ./ct-ng list-samples
 ```
 
-
 ![1712589585620](image/README/1712589585620.png)
 
 We will choose `arm-cortexa9_neon-linux-gnueabihf` as example:
@@ -70,7 +69,6 @@ We will choose `arm-cortexa9_neon-linux-gnueabihf` as example:
 
 ![1712589598257](image/README/1712589598257.png)
 
-
 # 4. Build Our ToolChain
 
 ```
@@ -80,7 +78,11 @@ We will choose `arm-cortexa9_neon-linux-gnueabihf` as example:
 
 Wait till it finish and go check your tool chain
 
+```
 cd ~/x-tools
+#If you have rootfs and wants to copy sysroot to it as it will be needed by your compiled apps if it is dynamicaly built
+cp ~/x-tools/arm-cortexa9_neon-linux-musleabihf/arm-cortexa9_neon-linux-musleabihf/sysroot/* <path>/rootfs/
+```
 
 # 5. Result
 
