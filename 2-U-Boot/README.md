@@ -133,6 +133,14 @@ second partition is linux
 sudo mkfs.ext4 -L rootfs ${DISK}p2
 ```
 
+**Mounting For Virtual SD** :  mount boot partition in a directory  SD/boot after mounting any files in this location will be added to SD boot partition
+
+![1712645998950](image/README/1712645998950.png)
+
+```
+sudo mount /dev/loop<>p1 SD/boot  # Copy uboot to it & files like kernel & dtb <will know more about them later in kernel section>
+```
+
 # 5. Load u-boot
 
 ##### For Vexpress-a9 (QEMU):
