@@ -169,7 +169,7 @@ exit 0
 
 
 
-## Step 4 : Createdirs for runlevels
+## Step 4 : Create dirs for runlevels
 
 ```
 cd /etc/
