@@ -1,3 +1,4 @@
+![1712778374947](image/README/1712778374947.png)
 
 # Embedded Linux Training Repository [NTI-4M]
 
