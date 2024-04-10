@@ -23,6 +23,12 @@ This is an example for rootfs localy on host machine  and target ip sets to 10.2
 
 ![1712715323573](image/README/1712715323573.png)
 
+* Mounts an NFS file system from a server with a specific IP address
+* Mount point is specified as `/<PATH>/rootfs` on the local system
+* Allows read and write access (`rw`)
+* Grants root access to the client (`no_root_squash`)
+* Disables subtree checking for better performance (`no_subtree_check`)
+
 ```
 sudo exportfs -r
 #to check your nfs exports
@@ -41,7 +47,7 @@ setenv bootargs console=ttyAMA0 root=/dev/nfs ip=10.204.25.177:::::eth0 nfsroot=
 
 ```
 
-Then start your kernel
+**Then start your kernel**
 
 # 4. Results
 
