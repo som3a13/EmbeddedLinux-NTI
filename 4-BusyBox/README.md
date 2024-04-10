@@ -82,7 +82,7 @@ touch ./etc/inittab
 The first user space program that gets executed by the kernel is `/sbin/init` and its configuration
 file is `/etc/inittab`.
 
-Here inittab first run rcS script 
+Here inittab first run rcS script
 
 ```
 ::sysinit:/etc/init.d/rcS
@@ -136,7 +136,7 @@ sleep 3
 
 # 5. Rootfs to SD card
 
-**Mounting for physical SD :** 
+**Mounting for physical SD :**
 
 ```
 sudo mount /dev/sd<x> /media/SDCARD
@@ -168,3 +168,7 @@ setenv bootargs console=ttyAMA0,115200n8 root=/dev/mmcblk0p2 rootfstype=ext4 rw 
 # 7. Result
 
 ![1712645738233](image/README/1712645738233.png)
+
+# 8. Load Rootfs from Network serevr ?
+
+#### **####Check NFS section and give it a try to do that :D ####**
