@@ -79,12 +79,14 @@ config BR2_PACKAGE_SIMPLEAPP
 
 **Tree of Files should look like :**
 
+```
 .
 ├── Config.in
 ├── simpleapp.mk
 └── src
     ├── Makefile
     └── simpleapp.c
+```
 
 ## Step 4 : Add our package menu under Target packages
 
@@ -96,7 +98,6 @@ endmenu
 
 ```
 
-
 ```
 cd buildroot<ver>/package/
 vim Config.in
@@ -106,7 +107,7 @@ menu "SimpleApp Package"
 
 ![1712895006276](image/README/1712895006276.png)
 
-# Test 
+# Test
 
 ![1712895215543](image/README/1712895215543.png)
 
