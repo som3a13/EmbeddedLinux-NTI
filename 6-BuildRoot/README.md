@@ -4,8 +4,7 @@ Buildroot is an open-source project aimed at facilitating the process of buildin
 
 # 1. Setting up Enviornment
 
-1. 50 Gb of free disk
-2. Need to download the following essential dependicies
+Need to download the following essential dependicies
 
 ```shell
 sudo apt install sed make binutils gcc g++ bash patch \
@@ -44,9 +43,11 @@ make raspberrypi4_64_defconfig
 ```
 
 **In the configuration, configure the following  requirement :**
+
 ```
 make menuconfig
 ```
+
 * [ ] Init procecss to **System V** or **System D** or **Busybox init**
 
 `In case of using systemD increase the root file system size from build root configuartion`
