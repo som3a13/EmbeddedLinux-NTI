@@ -91,19 +91,15 @@ config BR2_PACKAGE_SIMPLEAPP
 ## Step 4 : Add our package menu under Target packages
 
 ```
+cd buildroot<ver>/package/
+vim Config.in
+
 menu "SimpleApp Package"
 	source "package/simpleapp/Config.in"
 
 endmenu
 
 ```
-
-```
-cd buildroot<ver>/package/
-vim Config.in
-```
-
-menu "SimpleApp Package"
 
 ![1712895006276](image/README/1712895006276.png)
 
