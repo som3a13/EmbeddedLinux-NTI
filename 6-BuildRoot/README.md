@@ -161,7 +161,7 @@ it will assign ip for host and will automatic assign an ip for raspi .  remove e
 
 sudo nmap -sn `<localIPv4>`/24
 
-![1712249495319](https://file+.vscode-resource.vscode-cdn.net/home/som3a133/Desktop/GitHub/EmbeddedLinux-NTI/6-BuildRoot/image/README/1712249495319.png)
+![1712895934224](image/README/1712895934224.png)
 
 ssh root@`<Pi-IP>`
 
