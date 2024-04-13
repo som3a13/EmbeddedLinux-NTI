@@ -76,7 +76,14 @@ do_install() {
 Our hello.c:
 
 ```
-#include 
+#include <stdio.h>
+
+int main(void)
+{
+	printf("hello From first Package\n");
+	return 0;
+}
+
 ```
 
 **Build the recipe hello :**
