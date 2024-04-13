@@ -106,7 +106,7 @@ ifconfig eth0 10.204.25.177
 ifconfig eth0 up
 ```
 
-![1712251219387](image/README/1712251219387.png)
+![1713026426496](image/README/1713026426496.png)
 
 ##### ***For RPI 4:***
 
