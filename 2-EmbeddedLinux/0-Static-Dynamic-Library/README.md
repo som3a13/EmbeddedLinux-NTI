@@ -53,7 +53,7 @@ int add(int x,int y)
 Now we will compile all files in  ./lib to get the *.o  object files
 
 ```
-cc -c *.c
+gcc -c *.c
 
 ```
 
