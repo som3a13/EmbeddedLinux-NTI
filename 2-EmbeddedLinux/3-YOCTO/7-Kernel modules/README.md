@@ -1,1 +1,1 @@
-# Kernel module recipe
+# Kernel module
