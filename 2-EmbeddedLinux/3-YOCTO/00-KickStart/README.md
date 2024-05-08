@@ -177,11 +177,3 @@ sudo dd if=<image-name.rpi-sdimg> of=/dev/sda
 ```
 
 ![1715164693054](image/README/1715164693054.png)
-
-## Check Qt Creator with Raspberry Pi4 section
-
-### #Includes Steps to build your first GUI on Raspberry Pi#
-
-# **Upcoming is : How to Develop Headless Raspberry Pi 4 !**
-
-### #under development#
