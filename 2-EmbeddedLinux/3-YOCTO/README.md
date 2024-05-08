@@ -7,7 +7,7 @@ The Yocto Project is an open-source collaboration project that provides tools an
 Output: Linux Based Embedded Product
 *(Linux Kernel, Root File System, Bootloader, Device Tree, Toolchain)
 
-**This Guide is a kick start to build a minimal images on Qemux86 and Raspberry PI4** 
+**This Guide is a kick start to build a minimal images on Qemux86 and Raspberry PI4**
 
 # 1. Setting up Enviornment
 
@@ -186,3 +186,16 @@ runqemu qemux86-64
 ```
 sudo dd if=<image-name.rpi-sdimg> of=/dev/sda
 ```
+
+![1715161468202](https://file+.vscode-resource.vscode-cdn.net/home/som3a133/Desktop/GitHub/EmbeddedLinux-NTI/2-EmbeddedLinux/3-YOCTO/image/README/1715161468202.png)
+
+
+
+## Check Qt Creator with Raspberry Pi4 section
+
+### #Includes Steps to Compile your first GUI on Raspberry Pi#
+
+
+# **Upcoming is How to Develop Headless Raspberry Pi 4 !**
+
+### #under development#
