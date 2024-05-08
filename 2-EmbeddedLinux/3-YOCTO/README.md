@@ -187,8 +187,7 @@ runqemu qemux86-64
 sudo dd if=<image-name.rpi-sdimg> of=/dev/sda
 ```
 
-
-![1715161468202](https://file+.vscode-resource.vscode-cdn.net/home/som3a133/Desktop/GitHub/EmbeddedLinux-NTI/2-EmbeddedLinux/3-YOCTO/image/README/1715161468202.png)
+![1715164693054](image/README/1715164693054.png)
 
 ## Check Qt Creator with Raspberry Pi4 section
 
