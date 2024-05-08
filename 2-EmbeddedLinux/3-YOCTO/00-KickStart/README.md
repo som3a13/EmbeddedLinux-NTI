@@ -1,16 +1,3 @@
-![1714912651160](image/README/1714912651160.png)
-
-# Yocto Project
-
-The Yocto Project is an open-source collaboration project that provides tools and resources for creating custom Linux distributions for embedded systems. It offers a flexible framework for building embedded Linux systems, allowing developers to customize their distributions to meet specific requirements. Yocto streamlines the development process by providing tools for package management, configuration, and cross-compilation.
-
-Output: Linux Based Embedded Product
-*(Linux Kernel, Root File System, Bootloader, Device Tree, Toolchain)
-
-**As you proceed in this repo you will pass by most of important things for customization using yocto**
-
-**This Guide is a kick start to build a minimal images on Qemux86 and Raspberry PI4**
-
 # 1. Setting up Enviornment
 
 1. 50 Gb of free disk
