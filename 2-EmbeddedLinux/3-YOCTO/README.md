@@ -28,7 +28,7 @@ pylint3 xterm
 Poky is a *reference distribution of the Yocto Project®. It contains the OpenEmbedded Build System (BitBake and OpenEmbedded Core) as well as a set of metadata to get you started building your own distro.*
 
 ```
-git clone -b dunfell git://git.yoctoproject.org/poky.git --depth=1
+git clone -b kirkstone git://git.yoctoproject.org/poky.git --depth=1
 cd poky/
 ```
 
@@ -119,7 +119,7 @@ IMAGE_FSTYPES = "tar.xz ext3 rpi-sdimg"
 ```
 #Go back to the main poky folder
 cd poky/
-git clone  -b dunfell https://github.com/agherzan/meta-raspberrypi.git --depth=1
+git clone  -b kirkstone https://github.com/agherzan/meta-raspberrypi.git --depth=1
 ```
 
 ```
