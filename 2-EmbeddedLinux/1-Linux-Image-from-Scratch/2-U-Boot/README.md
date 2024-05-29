@@ -116,8 +116,9 @@ To emulate the sd.img file as a sd card we need to attach it to **loop driver** 
 sudo losetup -f --show --partscan sd.img
 export DISK=/dev/<sd-blk>
 #it should output /dev/loop28 as example . with 2 parts
-
 ```
+
+![1717011646145](image/README/1717011646145.png)
 
 ### Format Partition Table
 
