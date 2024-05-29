@@ -52,7 +52,7 @@ Take output kernel and dtb and put then in your sd/boot/ or in TFTP server to lo
 
 ```
 cp linux/arch/arm/boot/zImage /srv/tftp/
-cp linux/arch/arm/boot/dts/*-ca9.dtb /srv/tftp/
+cp linux/arch/arm/boot/arm/dts/*-ca9.dtb /srv/tftp/
 ```
 
 **discussed that in U-boot**
