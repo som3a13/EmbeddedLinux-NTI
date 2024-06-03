@@ -1,0 +1,1 @@
+# Ways For Makefile
