@@ -1,0 +1,8 @@
+/home/som3a133/Desktop/GitHub/EmbeddedLinux-NTI/4-GoogleTest/unit-test/testcpp/build/CMakeFiles/hx.dir
+/home/som3a133/Desktop/GitHub/EmbeddedLinux-NTI/4-GoogleTest/unit-test/testcpp/build/CMakeFiles/test.dir
+/home/som3a133/Desktop/GitHub/EmbeddedLinux-NTI/4-GoogleTest/unit-test/testcpp/build/CMakeFiles/edit_cache.dir
+/home/som3a133/Desktop/GitHub/EmbeddedLinux-NTI/4-GoogleTest/unit-test/testcpp/build/CMakeFiles/rebuild_cache.dir
+/home/som3a133/Desktop/GitHub/EmbeddedLinux-NTI/4-GoogleTest/unit-test/testcpp/build/CMakeFiles/list_install_components.dir
+/home/som3a133/Desktop/GitHub/EmbeddedLinux-NTI/4-GoogleTest/unit-test/testcpp/build/CMakeFiles/install.dir
+/home/som3a133/Desktop/GitHub/EmbeddedLinux-NTI/4-GoogleTest/unit-test/testcpp/build/CMakeFiles/install/local.dir
+/home/som3a133/Desktop/GitHub/EmbeddedLinux-NTI/4-GoogleTest/unit-test/testcpp/build/CMakeFiles/install/strip.dir

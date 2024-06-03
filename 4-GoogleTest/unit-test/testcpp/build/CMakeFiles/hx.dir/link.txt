@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/hx.dir/gtest.cpp.o -o hx  -Wl,-Bstatic -lgtest_main -lgtest -Wl,-Bdynamic 
