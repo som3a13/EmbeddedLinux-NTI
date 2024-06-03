@@ -1,0 +1,24 @@
+# ninja log v5
+194	819	1713457343318393275	/home/som3a133/AirController/build/Desktop_Qt_5_15_2_GCC_64bit-Debug/AirController_autogen/EWIEGA46WW/qrc_images.cpp	7df0da43dffbac54
+820	1711	1713457344254393269	CMakeFiles/AirController.dir/new_label.cpp.o	9dceecfe8cced46b
+1405	1667	1713869878503985123	AirController	ee3aa9a13a6d38a9
+820	13720	1713457356258393196	CMakeFiles/AirController.dir/AirController_autogen/EWIEGA46WW/qrc_images.cpp.o	f4f8f75cd6bbc12d
+249	1344	1713869878179985125	CMakeFiles/AirController.dir/main.cpp.o	538d97e4c91b3549
+249	1401	1713869878235985125	CMakeFiles/AirController.dir/mainwindow.cpp.o	9074d5a62167c826
+249	1404	1713869878239985125	CMakeFiles/AirController.dir/AirController_autogen/mocs_compilation.cpp.o	45d1094abcdb9cc1
+3	249	1713869877087985132	/home/som3a133/AirController/build/Desktop_Qt_5_15_2_GCC_64bit-Debug/AirController_autogen/mocs_compilation.cpp	aaa1713f28282d74
+3	249	1713869877087985132	/home/som3a133/AirController/build/Desktop_Qt_5_15_2_GCC_64bit-Debug/AirController_autogen/timestamp	aaa1713f28282d74
+3	249	1713869877087985132	AirController_autogen/mocs_compilation.cpp	aaa1713f28282d74
+194	819	1713457343318393275	AirController_autogen/EWIEGA46WW/qrc_images.cpp	7df0da43dffbac54
+3	249	1713869877087985132	AirController_autogen/timestamp	aaa1713f28282d74
+0	41	1714817279508458369	build.ninja	d1b2ddc1a9fb2433
+9	264	1714817280076458365	AirController_autogen/timestamp	66f0d2ebd3dc1a65
+9	264	1714817280076458365	AirController_autogen/mocs_compilation.cpp	66f0d2ebd3dc1a65
+9	264	1714817280076458365	/home/som3a133/AirController/build/Desktop_Qt_5_15_2_GCC_64bit-Debug/AirController_autogen/timestamp	66f0d2ebd3dc1a65
+9	264	1714817280076458365	/home/som3a133/AirController/build/Desktop_Qt_5_15_2_GCC_64bit-Debug/AirController_autogen/mocs_compilation.cpp	66f0d2ebd3dc1a65
+264	896	1714817280664458360	AirController_autogen/EWIEGA46WW/qrc_images.cpp	6539a35636f6880f
+264	896	1714817280664458360	/home/som3a133/AirController/build/Desktop_Qt_5_15_2_GCC_64bit-Debug/AirController_autogen/EWIEGA46WW/qrc_images.cpp	6539a35636f6880f
+897	1898	1714817281708458352	CMakeFiles/AirController.dir/new_label.cpp.o	d75474952d369c05
+897	1901	1714817281712458352	CMakeFiles/AirController.dir/AirController_autogen/mocs_compilation.cpp.o	ac569c3e125386dc
+897	1905	1714817281716458352	CMakeFiles/AirController.dir/mainwindow.cpp.o	6affa5144b9167e
+897	1920	1714817281732458351	CMakeFiles/AirController.dir/main.cpp.o	b729b19fdd81d36f
